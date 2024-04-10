@@ -1,0 +1,75 @@
+Recordando GIT y github
+
+
+
+git init
+
+tocuh README.md
+
+git add README.md
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin git@github.com:adzc39/curso-python-pip.git
+
+git pull origin main
+
+touch .gitignore
+
+code .gitignore
+
+git commit -m "first commit"
+
+git push -u origin main
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+git remote add origin https://github.com/adzc39/hyperblog_recordar.git		Establecer un origen remoto: se define el repositorio remoto para gestionar 											nuestro proyecto mediante conexión HTTPS.
+
+git remote -v									se utiliza para listar las URL de los repositorios remotos asociados con el 											repositorio de Git local
+
+ls -al										se usa en sistemas operativos Unix y basados en Unix, como Linux y macOS, y su 											propósito es listar los archivos y directorios en el directorio actual de manera 										detallada
+
+git push origin master								Se utiliza para subir los cambios que has hecho localmente en tu rama master al 										repositorio remoto denominado origin
+
+git branch -m main								Migrar la rama master a la rama main (devido a las nuevas actualizaciones del Git)
+
+git status
+
+git checkout master
+
+git checkout main
+
+git add .
+
+git push origin main								Para realizar el PUSH, see reemplaza el master por el main
+
+git pull --rebase origin main
+
+git commit -m "Describe tus cambios"
+
+git push origin main
+
+git pull origin main --allow-unrelated-histories				Forzar la actualizacion del historial de commit
+
+
+-------------------------------------------------------------------------------------------------------
+
+git config			muestra configuraciones de git también podemos usar --list para mostrar 				la configuración por defecto de nuestro git y si añadimos --show-origin 				inhales nos muestra las configuraciones guardadas y su ubicación.
+
+git config --list		mostrar la configuración por defecto de nuestro git y si añadimos --					show-origin inhales nos muestra las configuraciones guardadas y su 					ubicación.
+
+git config --list --show-origin	inhales nos muestra las configuraciones guardadas y su ubicación.
+
+git config --global user.name	cambia de manera global el nombre del usuario, seguidamente ponemos 					entre comillas nuestro nombre.
+
+git config --global user.email	cambia de manera global el email del usuario, seguidamente ponemos entre 				comillas nuestro nombre.
+
+ 
